@@ -2,14 +2,13 @@
 # Copyright (C) 2001-2024, Python Software Foundation
 # This file is distributed under the same license as the Python package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-01 00:21+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2025-08-01 8:19+0300\n"
+"Last-Translator: Melih <melihcandemir@protonmail.com>\n"
 "Language-Team: TURKISH <python.docs.tr@gmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -18,27 +17,27 @@ msgstr ""
 
 #: library/string.rst:2
 msgid ":mod:`!string` --- Common string operations"
-msgstr ""
+msgstr ":mod:`!string` --- Yaygın dize işlemleri"
 
 #: library/string.rst:7
 msgid "**Source code:** :source:`Lib/string.py`"
-msgstr ""
+msgstr "**Kaynak kod:** :source:`Lib/string.py`"
 
 #: library/string.rst:14
 msgid ":ref:`textseq`"
-msgstr ""
+msgstr ":ref:`textseq`"
 
 #: library/string.rst:16
 msgid ":ref:`string-methods`"
-msgstr ""
+msgstr ":ref:`string-methods`"
 
 #: library/string.rst:19
 msgid "String constants"
-msgstr ""
+msgstr "Dize sabitleri"
 
 #: library/string.rst:21
 msgid "The constants defined in this module are:"
-msgstr ""
+msgstr "Bu modülde tanımlanan sabitler:"
 
 #: library/string.rst:26
 msgid ""
@@ -46,36 +45,44 @@ msgid ""
 "`ascii_uppercase` constants described below.  This value is not locale-"
 "dependent."
 msgstr ""
+"Aşağıda açıklanan :const:`ascii_lowercase` ve :const:`ascii_uppercase` "
+"sabitlerinin birleşimi. Bu değer yerel ayarlara bağımlı değildir."
 
 #: library/string.rst:32
 msgid ""
 "The lowercase letters ``'abcdefghijklmnopqrstuvwxyz'``.  This value is not "
 "locale-dependent and will not change."
 msgstr ""
+"Küçük harfler ``'abcdefghijklmnopqrstuvwxyz'``. Bu değer yerel ayarlara "
+"bağımlı değildir ve değişmeyecektir."
 
 #: library/string.rst:38
 msgid ""
 "The uppercase letters ``'ABCDEFGHIJKLMNOPQRSTUVWXYZ'``.  This value is not "
 "locale-dependent and will not change."
 msgstr ""
+"Büyük harfler ``'ABCDEFGHIJKLMNOPQRSTUVWXYZ'``. Bu değer yerel ayarlara "
+"bağımlı değildir ve değişmeyecektir."
 
 #: library/string.rst:44
 msgid "The string ``'0123456789'``."
-msgstr ""
+msgstr "``'0123456789'`` dizesi."
 
 #: library/string.rst:49
 msgid "The string ``'0123456789abcdefABCDEF'``."
-msgstr ""
+msgstr "``'0123456789abcdefABCDEF'`` dizesi."
 
 #: library/string.rst:54
 msgid "The string ``'01234567'``."
-msgstr ""
+msgstr "``'01234567'`` dizesi."
 
 #: library/string.rst:59
 msgid ""
 "String of ASCII characters which are considered punctuation characters in "
 "the ``C`` locale: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``."
 msgstr ""
+"``C`` yerel ayarında noktalama karakterleri olarak kabul edilen ASCII "
+"karakterleri dizesi: ``!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~``."
 
 #: library/string.rst:64
 msgid ""
@@ -83,6 +90,9 @@ msgid ""
 "combination of :const:`digits`, :const:`ascii_letters`, :const:"
 "`punctuation`, and :const:`whitespace`."
 msgstr ""
+"Yazdırılabilir olarak kabul edilen ASCII karakterleri dizesi. Bu, "
+":const:`digits`, :const:`ascii_letters`, :const:`punctuation` ve "
+":const:`whitespace` sabitlerinin birleşimidir."
 
 #: library/string.rst:71
 msgid ""
@@ -90,10 +100,13 @@ msgid ""
 "This includes the characters space, tab, linefeed, return, formfeed, and "
 "vertical tab."
 msgstr ""
+"Boşluk olarak kabul edilen tüm ASCII karakterlerini içeren bir dize. "
+"Bu, boşluk, sekme, satır besleme, dönüş, form besleme ve dikey sekme "
+"karakterlerini içerir."
 
 #: library/string.rst:79
 msgid "Custom String Formatting"
-msgstr ""
+msgstr "Özel Dize Biçimlendirme"
 
 #: library/string.rst:81
 msgid ""
@@ -104,10 +117,16 @@ msgid ""
 "behaviors using the same implementation as the built-in :meth:`~str.format` "
 "method."
 msgstr ""
+"Yerleşik dize sınıfı, :pep:`3101`'de açıklanan :meth:`~str.format` "
+"metodu aracılığıyla karmaşık değişken değiştirme ve değer biçimlendirme "
+"yapabilme yeteneği sağlar. :mod:`string` modülündeki :class:`Formatter` "
+"sınıfı, yerleşik :meth:`~str.format` metoduyla aynı uygulamayı kullanarak "
+"kendi dize biçimlendirme davranışlarınızı oluşturmanıza ve özelleştirmenize "
+"izin verir."
 
 #: library/string.rst:90
 msgid "The :class:`Formatter` class has the following public methods:"
-msgstr ""
+msgstr ":class:`Formatter` sınıfının aşağıdaki genel metotları vardır:"
 
 #: library/string.rst:94
 msgid ""
@@ -115,12 +134,15 @@ msgid ""
 "positional and keyword arguments. It is just a wrapper that calls :meth:"
 "`vformat`."
 msgstr ""
+"Birincil API metodu. Bir biçim dizesi ve rastgele bir konumsal ve anahtar "
+"kelime argümanları kümesi alır. Bu, :meth:`vformat`'ı çağıran bir sarmalayıcıdır."
 
 #: library/string.rst:98
 msgid ""
 "A format string argument is now :ref:`positional-only <positional-"
 "only_parameter>`."
 msgstr ""
+"Bir biçim dizesi argümanı artık :ref:`positional-only <positional-only_parameter>`'dir."
 
 #: library/string.rst:104
 msgid ""
@@ -131,12 +153,20 @@ msgid ""
 "`vformat` does the work of breaking up the format string into character data "
 "and replacement fields.  It calls the various methods described below."
 msgstr ""
+"Bu fonksiyon biçimlendirmenin gerçek işini yapar. Önceden tanımlanmış "
+"bir argüman sözlüğünü geçmek istediğiniz durumlar için ayrı bir fonksiyon "
+"olarak sunulur, ``*args`` ve ``**kwargs`` sözdizimi kullanarak sözlüğü "
+"ayrı argümanlar olarak açmak ve yeniden paketlemek yerine. :meth:`vformat` "
+"biçim dizesini karakter verilerine ve değiştirme alanlarına bölme işini yapar. "
+"Aşağıda açıklanan çeşitli metotları çağırır."
 
 #: library/string.rst:112
 msgid ""
 "In addition, the :class:`Formatter` defines a number of methods that are "
 "intended to be replaced by subclasses:"
 msgstr ""
+"Ek olarak, :class:`Formatter` alt sınıflar tarafından değiştirilmesi "
+"amaçlanan bir dizi metot tanımlar:"
 
 #: library/string.rst:117
 msgid ""
@@ -145,6 +175,10 @@ msgid ""
 "by :meth:`vformat` to break the string into either literal text, or "
 "replacement fields."
 msgstr ""
+"format_string üzerinde döngü yapar ve (*literal_text*, *field_name*, "
+"*format_spec*, *conversion*) demetlerinin yinelenebilir bir nesnesini döndürür. "
+"Bu, :meth:`vformat` tarafından dizeyi ya literal metin ya da değiştirme "
+"alanlarına bölmek için kullanılır."
 
 #: library/string.rst:122
 msgid ""
@@ -155,6 +189,12 @@ msgid ""
 "field, then the values of *field_name*, *format_spec* and *conversion* will "
 "be ``None``."
 msgstr ""
+"Demetteki değerler kavramsal olarak tek bir değiştirme alanından önce "
+"gelen literal metin aralığını temsil eder. Eğer literal metin yoksa "
+"(bu, iki değiştirme alanının ardışık olarak oluşması durumunda olabilir), "
+"o zaman *literal_text* sıfır uzunlukta bir dize olacaktır. Eğer değiştirme "
+"alanı yoksa, *field_name*, *format_spec* ve *conversion* değerleri ``None`` "
+"olacaktır."
 
 #: library/string.rst:131
 msgid ""
@@ -165,6 +205,12 @@ msgid ""
 "meth:`vformat`.  The return value *used_key* has the same meaning as the "
 "*key* parameter to :meth:`get_value`."
 msgstr ""
+":meth:`parse` tarafından döndürülen *field_name* verildiğinde, onu "
+"biçimlendirilecek bir nesneye dönüştürür. Bir demet (obj, used_key) döndürür. "
+"Varsayılan sürüm :pep:`3101`'de tanımlanan formdaki dizeleri alır, "
+"örneğin \"0[name]\" veya \"label.title\". *args* ve *kwargs* :meth:`vformat`'a "
+"geçirildiği gibidir. Dönüş değeri *used_key* :meth:`get_value`'daki *key* "
+"parametresiyle aynı anlama sahiptir."
 
 #: library/string.rst:140
 msgid ""
@@ -173,6 +219,10 @@ msgid ""
 "argument in *args*; if it is a string, then it represents a named argument "
 "in *kwargs*."
 msgstr ""
+"Verilen bir alan değerini alır. *key* argümanı ya bir tamsayı ya da bir "
+"dize olacaktır. Eğer bir tamsayıysa, *args*'taki konumsal argümanın "
+"indeksini temsil eder; eğer bir dizeyse, *kwargs*'taki adlandırılmış "
+"bir argümanı temsil eder."
 
 #: library/string.rst:145
 msgid ""
@@ -180,6 +230,9 @@ msgid ""
 "`vformat`, and the *kwargs* parameter is set to the dictionary of keyword "
 "arguments."
 msgstr ""
+"*args* parametresi :meth:`vformat`'a geçirilen konumsal argümanların "
+"listesine, *kwargs* parametresi ise anahtar kelime argümanlarının "
+"sözlüğüne ayarlanır."
 
 #: library/string.rst:149
 msgid ""
@@ -187,6 +240,9 @@ msgid ""
 "component of the field name; subsequent components are handled through "
 "normal attribute and indexing operations."
 msgstr ""
+"Bileşik alan adları için, bu fonksiyonlar yalnızca alan adının ilk "
+"bileşeni için çağrılır; sonraki bileşenler normal öznitelik ve "
+"indeksleme işlemleri aracılığıyla işlenir."
 
 #: library/string.rst:153
 msgid ""
@@ -195,12 +251,17 @@ msgid ""
 "looked up after :meth:`get_value` returns by calling the built-in :func:"
 "`getattr` function."
 msgstr ""
+"Örneğin, '0.name' alan ifadesi :meth:`get_value`'nun 0 *key* argümanıyla "
+"çağrılmasına neden olur. ``name`` özniteliği, :meth:`get_value` döndükten "
+"sonra yerleşik :func:`getattr` fonksiyonu çağrılarak aranacaktır."
 
 #: library/string.rst:158
 msgid ""
 "If the index or keyword refers to an item that does not exist, then an :exc:"
 "`IndexError` or :exc:`KeyError` should be raised."
 msgstr ""
+"Eğer indeks veya anahtar kelime mevcut olmayan bir öğeye işaret ediyorsa, "
+"o zaman bir :exc:`IndexError` veya :exc:`KeyError` yükseltilmelidir."
 
 #: library/string.rst:163
 msgid ""
@@ -211,12 +272,21 @@ msgid ""
 "vformat.  The set of unused args can be calculated from these parameters.  :"
 "meth:`check_unused_args` is assumed to raise an exception if the check fails."
 msgstr ""
+"İstenirse kullanılmayan argümanları kontrol etmeyi uygular. Bu fonksiyonun "
+"argümanları, biçim dizesinde gerçekten referans verilen tüm argüman "
+"anahtarlarının kümesidir (konumsal argümanlar için tamsayılar, adlandırılmış "
+"argümanlar için dizeler) ve vformat'a geçirilen *args* ve *kwargs*'a "
+"bir referanstır. Kullanılmayan argümanların kümesi bu parametrelerden "
+"hesaplanabilir. :meth:`check_unused_args`'in kontrol başarısız olursa "
+"bir istisna yükselteceği varsayılır."
 
 #: library/string.rst:173
 msgid ""
 ":meth:`format_field` simply calls the global :func:`format` built-in.  The "
 "method is provided so that subclasses can override it."
 msgstr ""
+":meth:`format_field` basitçe global :func:`format` yerleşik fonksiyonunu "
+"çağırır. Bu metot, alt sınıfların onu geçersiz kılabilmesi için sağlanır."
 
 #: library/string.rst:178
 msgid ""
@@ -224,10 +294,13 @@ msgid ""
 "(as in the tuple returned by the :meth:`parse` method).  The default version "
 "understands 's' (str), 'r' (repr) and 'a' (ascii) conversion types."
 msgstr ""
+"Bir dönüşüm türü verildiğinde değeri (:meth:`get_field` tarafından döndürülen) "
+"dönüştürür (:meth:`parse` metodu tarafından döndürülen demetteki gibi). "
+"Varsayılan sürüm 's' (str), 'r' (repr) ve 'a' (ascii) dönüşüm türlerini anlar."
 
 #: library/string.rst:187
 msgid "Format String Syntax"
-msgstr ""
+msgstr "Biçim Dizesi Sözdizimi"
 
 #: library/string.rst:189
 msgid ""
@@ -238,6 +311,12 @@ msgid ""
 "less sophisticated and, in particular, does not support arbitrary "
 "expressions."
 msgstr ""
+":meth:`str.format` metodu ve :class:`Formatter` sınıfı biçim dizeleri "
+"için aynı sözdizimini paylaşır (ancak :class:`Formatter` durumunda, "
+"alt sınıflar kendi biçim dizesi sözdizimlerini tanımlayabilir). "
+"Sözdizimi :ref:`formatted string literals <f-strings>`'in sözdizimiyle "
+"ilgilidir, ancak daha az gelişmiş ve özellikle rastgele ifadeleri "
+"desteklemez."
 
 #: library/string.rst:202
 msgid ""
@@ -247,10 +326,54 @@ msgid ""
 "character in the literal text, it can be escaped by doubling: ``{{`` and ``}}"
 "``."
 msgstr ""
+"Biçim dizeleri süslü parantezler ``{}`` ile çevrili \"değiştirme alanları\" "
+"içerir. Parantezler içinde olmayan her şey literal metin olarak kabul edilir "
+"ve değiştirilmeden çıktıya kopyalanır. Literal metinde bir parantez "
+"karakteri dahil etmeniz gerekiyorsa, çiftleyerek kaçırılabilir: ``{{`` ve ``}}``."
 
 #: library/string.rst:207
 msgid "The grammar for a replacement field is as follows:"
+msgstr "Bir değiştirme alanının dilbilgisi şu şekildedir:"
+
+#: library/string.rst:209
+msgid ""
+"replacement_field ::=  \"{\" [field_name] [\"!\" conversion] [\":\" "
+"format_spec] \"}\"\n"
+"field_name        ::=  arg_name (\".\" attribute_name | \"[\" element_index "
+"\"]\")*\n"
+"arg_name          ::=  [identifier | digit+]\n"
+"attribute_name    ::=  identifier\n"
+"element_index     ::=  digit+ | index_string\n"
+"index_string      ::=  <any source character except \"]\"> +\n"
+"conversion        ::=  \"r\" | \"s\" | \"a\"\n"
+"format_spec       ::=  <described in the next section>"
 msgstr ""
+"replacement_field ::=  \"{\" [field_name] [\"!\" conversion] [\":\" "
+"format_spec] \"}\"\n"
+"field_name        ::=  arg_name (\".\" attribute_name | \"[\" element_index "
+"\"]\")*\n"
+"arg_name          ::=  [identifier | digit+]\n"
+"attribute_name    ::=  identifier\n"
+"element_index     ::=  digit+ | index_string\n"
+"index_string      ::=  <any source character except \"]\"> +\n"
+"conversion        ::=  \"r\" | \"s\" | \"a\"\n"
+"format_spec       ::=  <described in the next section>"
+
+#: library/string.rst:212
+msgid ""
+"In less formal terms, the replacement field can start with a *field_name* "
+"that specifies the object whose value is to be formatted and inserted into "
+"the output instead of the replacement field. The *field_name* is optionally "
+"followed by a  *conversion* field, which is preceded by an exclamation point "
+"``'!'``, and a *format_spec*, which is preceded by a colon ``':'``.  These "
+"specify a non-default format for the replacement value."
+msgstr ""
+"Daha az resmi terimlerle, değiştirme alanı, değeri biçimlendirilecek ve "
+"değiştirme alanı yerine çıktıya eklenecek nesneyi belirten bir *field_name* "
+"ile başlayabilir. *field_name* isteğe bağlı olarak ünlem işareti ``'!'`` "
+"ile öncelenen bir *conversion* alanı ve iki nokta üst üste ``':'`` ile "
+"öncelenen bir *format_spec* ile takip edilir. Bunlar değiştirme değeri "
+"için varsayılan olmayan bir biçim belirtir."
 
 #: library/string.rst:219
 msgid ""
@@ -261,10 +384,16 @@ msgid ""
 "``'!'``, and a *format_spec*, which is preceded by a colon ``':'``.  These "
 "specify a non-default format for the replacement value."
 msgstr ""
+"Gayri resmi olarak, değiştirme alanı, değeri biçimlendirilecek ve "
+"değiştirme alanı yerine çıktıya eklenecek nesneyi belirten bir *field_name* "
+"ile başlayabilir. *field_name* isteğe bağlı olarak ünlem işareti ``'!'`` "
+"ile öncelenen bir *conversion* alanı ve iki nokta üst üste ``':'`` ile "
+"öncelenen bir *format_spec* ile takip edilir. Bunlar değiştirme değeri "
+"için varsayılan olmayan bir biçim belirtir."
 
 #: library/string.rst:226
 msgid "See also the :ref:`formatspec` section."
-msgstr ""
+msgstr ":ref:`formatspec` bölümüne de bakın."
 
 #: library/string.rst:228
 msgid ""
@@ -282,21 +411,39 @@ msgid ""
 "func:`getattr`, while an expression of the form ``'[index]'`` does an index "
 "lookup using :meth:`~object.__getitem__`."
 msgstr ""
+"*field_name*'in kendisi ya bir sayı ya da bir anahtar kelime olan bir "
+"*arg_name* ile başlar. Eğer bir sayıysa, bir konumsal argümana işaret "
+"eder ve eğer bir anahtar kelimeyse, adlandırılmış bir anahtar kelime "
+"argümanına işaret eder. Bir *arg_name*, dize üzerinde :meth:`str.isdecimal` "
+"çağrısı true döndürürse sayı olarak kabul edilir. Eğer bir biçim dizesindeki "
+"sayısal arg_name'ler 0, 1, 2, ... sırasındaysa, hepsi (sadece bazıları "
+"değil) atlanabilir ve 0, 1, 2, ... sayıları otomatik olarak o sırayla "
+"eklenecektir. *arg_name* tırnak işaretleriyle sınırlandırılmadığı için, "
+"bir biçim dizesi içinde rastgele sözlük anahtarları (örneğin ``'10'`` "
+"veya ``':-]'`` dizeleri) belirtmek mümkün değildir. *arg_name*'i herhangi "
+"bir sayıda indeks veya öznitelik ifadesi takip edebilir. ``'.name'`` "
+"biçimindeki bir ifade :func:`getattr` kullanarak adlandırılmış özniteliği "
+"seçerken, ``'[index]'`` biçimindeki bir ifade :meth:`~object.__getitem__` "
+"kullanarak indeks araması yapar."
 
 #: library/string.rst:242
 msgid ""
 "The positional argument specifiers can be omitted for :meth:`str.format`, so "
 "``'{} {}'.format(a, b)`` is equivalent to ``'{0} {1}'.format(a, b)``."
 msgstr ""
+"Konumsal argüman belirleyicileri :meth:`str.format` için atlanabilir, "
+"bu yüzden ``'{} {}'.format(a, b)``, ``'{0} {1}'.format(a, b)`` ile "
+"eşdeğerdir."
 
 #: library/string.rst:246
 msgid ""
 "The positional argument specifiers can be omitted for :class:`Formatter`."
 msgstr ""
+"Konumsal argüman belirleyicileri :class:`Formatter` için atlanabilir."
 
 #: library/string.rst:249
 msgid "Some simple format string examples::"
-msgstr ""
+msgstr "Bazı basit biçim dizesi örnekleri::"
 
 #: library/string.rst:251
 msgid ""
@@ -310,6 +457,12 @@ msgid ""
 "\"Units destroyed: {players[0]}\"   # First element of keyword argument "
 "'players'."
 msgstr ""
+"\"First, thou shalt count to {0}\"  # İlk konumsal argümana referans verir\n"
+"\"Bring me a {}\"                   # İlk konumsal argümana örtük olarak referans verir\n"
+"\"From {} to {}\"                   # \"From {0} to {1}\" ile aynı\n"
+"\"My quest is {name}\"              # 'name' anahtar kelime argümanına referans verir\n"
+"\"Weight in tons {0.weight}\"       # İlk konumsal argümanın 'weight' özniteliği\n"
+"\"Units destroyed: {players[0]}\"   # 'players' anahtar kelime argümanının ilk öğesi."
 
 #: library/string.rst:258
 msgid ""
@@ -320,6 +473,12 @@ msgid ""
 "formatting.  By converting the value to a string before calling :meth:"
 "`~object.__format__`, the normal formatting logic is bypassed."
 msgstr ""
+"*conversion* alanı, biçimlendirmeden önce tür zorlamasına neden olur. "
+"Normalde, bir değeri biçimlendirme işi değerin kendi :meth:`~object.__format__` "
+"metodu tarafından yapılır. Ancak, bazı durumlarda bir türü kendi biçimlendirme "
+"tanımını geçersiz kılarak dize olarak biçimlendirmeye zorlamak istenir. "
+"Değeri :meth:`~object.__format__` çağırmadan önce dizeye dönüştürerek, "
+"normal biçimlendirme mantığı atlanır."
 
 #: library/string.rst:265
 msgid ""
@@ -327,10 +486,12 @@ msgid ""
 "`str` on the value, ``'!r'`` which calls :func:`repr` and ``'!a'`` which "
 "calls :func:`ascii`."
 msgstr ""
+"Şu anda üç dönüşüm bayrağı desteklenir: değer üzerinde :func:`str` çağıran "
+"``'!s'``, :func:`repr` çağıran ``'!r'`` ve :func:`ascii` çağıran ``'!a'``."
 
 #: library/string.rst:269
 msgid "Some examples::"
-msgstr ""
+msgstr "Bazı örnekler::"
 
 #: library/string.rst:271
 msgid ""
@@ -338,6 +499,9 @@ msgid ""
 "\"Bring out the holy {name!r}\"    # Calls repr() on the argument first\n"
 "\"More {!a}\"                      # Calls ascii() on the argument first"
 msgstr ""
+"\"Harold's a clever {0!s}\"        # Önce argüman üzerinde str() çağırır\n"
+"\"Bring out the holy {name!r}\"    # Önce argüman üzerinde repr() çağırır\n"
+"\"More {!a}\"                      # Önce argüman üzerinde ascii() çağırır"
 
 #: library/string.rst:275
 msgid ""
@@ -346,12 +510,18 @@ msgid ""
 "decimal precision and so on.  Each value type can define its own "
 "\"formatting mini-language\" or interpretation of the *format_spec*."
 msgstr ""
+"*format_spec* alanı, değerin nasıl sunulacağına ilişkin bir belirtim "
+"içerir, alan genişliği, hizalama, dolgu, ondalık hassasiyet ve benzeri "
+"ayrıntıları dahil eder. Her değer türü kendi \"biçimlendirme mini-dili\" "
+"veya *format_spec*'in yorumunu tanımlayabilir."
 
 #: library/string.rst:280
 msgid ""
 "Most built-in types support a common formatting mini-language, which is "
 "described in the next section."
 msgstr ""
+"Çoğu yerleşik tür, bir sonraki bölümde açıklanan ortak bir biçimlendirme "
+"mini-dilini destekler."
 
 #: library/string.rst:283
 msgid ""
@@ -362,14 +532,20 @@ msgid ""
 "*format_spec* string is interpreted. This allows the formatting of a value "
 "to be dynamically specified."
 msgstr ""
+"Bir *format_spec* alanı ayrıca içinde iç içe değiştirme alanları da "
+"içerebilir. Bu iç içe değiştirme alanları bir alan adı, dönüşüm bayrağı "
+"ve biçim belirtimi içerebilir, ancak daha derin iç içe geçme izin verilmez. "
+"format_spec içindeki değiştirme alanları, *format_spec* dizesi yorumlanmadan "
+"önce değiştirilir. Bu, bir değerin biçimlendirmesinin dinamik olarak "
+"belirtilmesine olanak tanır."
 
 #: library/string.rst:290
 msgid "See the :ref:`formatexamples` section for some examples."
-msgstr ""
+msgstr "Bazı örnekler için :ref:`formatexamples` bölümüne bakın."
 
 #: library/string.rst:296
 msgid "Format Specification Mini-Language"
-msgstr ""
+msgstr "Biçim Belirtimi Mini-Dili"
 
 #: library/string.rst:298
 msgid ""
@@ -379,6 +555,11 @@ msgid ""
 "to the built-in :func:`format` function.  Each formattable type may define "
 "how the format specification is to be interpreted."
 msgstr ""
+"\"Biçim belirtimleri\", biçim dizesi içinde bulunan değiştirme alanları "
+"içinde kullanılır ve bireysel değerlerin nasıl sunulacağını tanımlar (bkz. "
+":ref:`formatstrings` ve :ref:`f-strings`). Bunlar ayrıca doğrudan yerleşik "
+":func:`format` fonksiyonuna da geçirilebilir. Her biçimlendirilebilir tür, "
+"biçim belirtiminin nasıl yorumlanacağını tanımlayabilir."
 
 #: library/string.rst:305
 msgid ""
@@ -386,6 +567,9 @@ msgid ""
 "specifications, although some of the formatting options are only supported "
 "by the numeric types."
 msgstr ""
+"Çoğu yerleşik tür, biçim belirtimleri için aşağıdaki seçenekleri uygular, "
+"ancak biçimlendirme seçeneklerinin bazıları yalnızca sayısal türler "
+"tarafından desteklenir."
 
 #: library/string.rst:308
 msgid ""
@@ -393,10 +577,13 @@ msgid ""
 "result as if you had called :func:`str` on the value. A non-empty format "
 "specification typically modifies the result."
 msgstr ""
+"Genel bir kural, boş bir biçim belirtiminin değer üzerinde :func:`str` "
+"çağırmış gibi aynı sonucu üretmesidir. Boş olmayan bir biçim belirtimi "
+"tipik olarak sonucu değiştirir."
 
 #: library/string.rst:312
 msgid "The general form of a *standard format specifier* is:"
-msgstr ""
+msgstr "Bir *standart biçim belirleyicisi*'nin genel formu şu şekildedir:"
 
 #: library/string.rst:324
 msgid ""
@@ -408,42 +595,47 @@ msgid ""
 "curly brace with a nested replacement field.  This limitation doesn't affect "
 "the :func:`format` function."
 msgstr ""
+"Geçerli bir *align* değeri belirtilirse, herhangi bir karakter olabilen "
+"ve atlandığında varsayılan olarak boşluk olan bir *fill* karakteri ile "
+"öncelenebilir. Bir :ref:`formatted string literal <f-strings>` içinde "
+"veya :meth:`str.format` metodu kullanırken literal süslü parantez "
+"(\"``{``\" veya \"``}``\") *fill* karakteri olarak kullanmak mümkün değildir. "
+"Ancak, iç içe değiştirme alanı ile süslü parantez eklemek mümkündür. "
+"Bu sınırlama :func:`format` fonksiyonunu etkilemez."
 
 #: library/string.rst:333
 msgid "The meaning of the various alignment options is as follows:"
-msgstr ""
+msgstr "Çeşitli hizalama seçeneklerinin anlamı aşağıdaki gibidir:"
 
 #: library/string.rst:373
 msgid "Option"
-msgstr ""
+msgstr "Seçenek"
 
 #: library/string.rst:373 library/string.rst:467 library/string.rst:502
 msgid "Meaning"
-msgstr ""
+msgstr "Anlamı"
 
 #: library/string.rst:344
 msgid "``'<'``"
-msgstr ""
+msgstr "``'<'``"
 
 #: library/string.rst:344
-msgid ""
-"Forces the field to be left-aligned within the available space (this is the "
-"default for most objects)."
-msgstr ""
+msgid "Forces the field to be left-aligned within the available space (this is the default for most objects)."
+msgstr "Alanı mevcut alan içinde sola hizalamaya zorlar (çoğu nesne için varsayılan budur)."
 
 #: library/string.rst:347
 msgid "``'>'``"
-msgstr ""
+msgstr "``'>'``"
 
 #: library/string.rst:347
 msgid ""
 "Forces the field to be right-aligned within the available space (this is the "
 "default for numbers)."
-msgstr ""
+msgstr "Alanı mevcut alan içinde sağa hizalamaya zorlar (sayılar için varsayılan budur)."
 
 #: library/string.rst:350
 msgid "``'='``"
-msgstr ""
+msgstr "``'='``"
 
 #: library/string.rst:350
 msgid ""
@@ -452,14 +644,18 @@ msgid ""
 "alignment option is only valid for numeric types.  It becomes the default "
 "for numbers when '0' immediately precedes the field width."
 msgstr ""
+"Dolguyu işaretten sonra (varsa) ancak rakamlardan önce yerleştirmeye zorlar. "
+"Bu, '+000000120' biçimindeki alanları yazdırmak için kullanılır. Bu "
+"hizalama seçeneği yalnızca sayısal türler için geçerlidir. '0' alan "
+"genişliğinden hemen önce geldiğinde sayılar için varsayılan hale gelir."
 
 #: library/string.rst:356
 msgid "``'^'``"
-msgstr ""
+msgstr "``'^'``"
 
 #: library/string.rst:356
 msgid "Forces the field to be centered within the available space."
-msgstr ""
+msgstr "Alanı mevcut alan içinde ortalamaya zorlar."
 
 #: library/string.rst:360
 msgid ""
@@ -467,42 +663,53 @@ msgid ""
 "always be the same size as the data to fill it, so that the alignment option "
 "has no meaning in this case."
 msgstr ""
+"Minimum alan genişliği tanımlanmadığı sürece, alan genişliği her zaman "
+"onu dolduracak veri ile aynı boyutta olacağını unutmayın, bu durumda "
+"hizalama seçeneğinin bir anlamı yoktur."
 
 #: library/string.rst:364
 msgid ""
 "The *sign* option is only valid for number types, and can be one of the "
 "following:"
 msgstr ""
+"*sign* seçeneği yalnızca sayı türleri için geçerlidir ve aşağıdakilerden "
+"biri olabilir:"
 
 #: library/string.rst:375
 msgid "``'+'``"
-msgstr ""
+msgstr "``'+'``"
 
 #: library/string.rst:375
 msgid ""
 "indicates that a sign should be used for both positive as well as negative "
 "numbers."
 msgstr ""
+"hem pozitif hem de negatif sayılar için bir işaret kullanılması gerektiğini "
+"belirtir."
 
 #: library/string.rst:378
 msgid "``'-'``"
-msgstr ""
+msgstr "``'-'``"
 
 #: library/string.rst:378
 msgid ""
 "indicates that a sign should be used only for negative numbers (this is the "
 "default behavior)."
 msgstr ""
+"yalnızca negatif sayılar için bir işaret kullanılması gerektiğini belirtir "
+"(bu varsayılan davranıştır)."
 
 #: library/string.rst:381
 msgid "space"
-msgstr ""
+msgstr "boşluk"
 
 #: library/string.rst:381
 msgid ""
 "indicates that a leading space should be used on positive numbers, and a "
 "minus sign on negative numbers."
 msgstr ""
+"pozitif sayılarda önde boşluk kullanılması ve negatif sayılarda eksi işareti "
+"kullanılması gerektiğini belirtir."
 
 #: library/string.rst:388
 msgid ""
@@ -510,10 +717,13 @@ msgid ""
 "zero after rounding to the format precision.  This option is only valid for "
 "floating-point presentation types."
 msgstr ""
+"``'z'`` seçeneği, negatif sıfır kayan nokta değerlerini biçim hassasiyetine "
+"yuvarladıktan sonra pozitif sıfıra zorlar. Bu seçenek yalnızca kayan nokta "
+"sunum türleri için geçerlidir."
 
 #: library/string.rst:392
 msgid "Added the ``'z'`` option (see also :pep:`682`)."
-msgstr ""
+msgstr "``'z'`` seçeneği eklendi (bkz. :pep:`682`)."
 
 #: library/string.rst:397
 msgid ""
@@ -528,16 +738,29 @@ msgid ""
 "of these conversions only if a digit follows it. In addition, for ``'g'`` "
 "and ``'G'`` conversions, trailing zeros are not removed from the result."
 msgstr ""
+"``'#'`` seçeneği, dönüşüm için \"alternatif form\" kullanılmasına neden olur. "
+"Alternatif form farklı türler için farklı şekilde tanımlanır. Bu seçenek "
+"yalnızca tamsayı, kayan nokta ve karmaşık türler için geçerlidir. Tamsayılar "
+"için, ikili, sekizli veya onaltılı çıktı kullanıldığında, bu seçenek çıktı "
+"değerine ilgili önek ``'0b'``, ``'0o'``, ``'0x'`` veya ``'0X'`` ekler. "
+"Kayan nokta ve karmaşık sayılar için alternatif form, dönüşüm sonucunun "
+"her zaman bir ondalık nokta karakteri içermesine neden olur, hiç rakam "
+"takip etmese bile. Normalde, bir ondalık nokta karakteri bu dönüşümlerin "
+"sonucunda yalnızca bir rakam takip ederse görünür. Ek olarak, ``'g'`` "
+"ve ``'G'`` dönüşümleri için, sondaki sıfırlar sonuçtan kaldırılmaz."
 
 #: library/string.rst:411
 msgid ""
 "The ``','`` option signals the use of a comma for a thousands separator. For "
 "a locale aware separator, use the ``'n'`` integer presentation type instead."
 msgstr ""
+"``','`` seçeneği, binlik ayırıcı olarak virgül kullanılmasını belirtir. "
+"Yerel ayar farkında bir ayırıcı için, bunun yerine ``'n'`` tamsayı sunum "
+"türünü kullanın."
 
 #: library/string.rst:415
 msgid "Added the ``','`` option (see also :pep:`378`)."
-msgstr ""
+msgstr "``','`` seçeneği eklendi (bkz. :pep:`378`)."
 
 #: library/string.rst:420
 msgid ""
@@ -547,10 +770,15 @@ msgid ""
 "``'X'``, underscores will be inserted every 4 digits.  For other "
 "presentation types, specifying this option is an error."
 msgstr ""
+"``'_'`` seçeneği, kayan nokta sunum türleri ve tamsayı sunum türü ``'d'`` "
+"için binlik ayırıcı olarak alt çizgi kullanılmasını belirtir. Tamsayı "
+"sunum türleri ``'b'``, ``'o'``, ``'x'`` ve ``'X'`` için, alt çizgiler "
+"her 4 rakamda bir eklenir. Diğer sunum türleri için bu seçeneği belirtmek "
+"bir hatadır."
 
 #: library/string.rst:427
 msgid "Added the ``'_'`` option (see also :pep:`515`)."
-msgstr ""
+msgstr "``'_'`` seçeneği eklendi (bkz. :pep:`515`)."
 
 #: library/string.rst:430
 msgid ""
@@ -558,6 +786,9 @@ msgid ""
 "including any prefixes, separators, and other formatting characters. If not "
 "specified, then the field width will be determined by the content."
 msgstr ""
+"*width*, minimum toplam alan genişliğini tanımlayan ondalık bir tamsayıdır, "
+"herhangi bir önek, ayırıcı ve diğer biçimlendirme karakterlerini dahil eder. "
+"Belirtilmezse, alan genişliği içerik tarafından belirlenir."
 
 #: library/string.rst:434
 msgid ""
@@ -566,12 +797,17 @@ msgid ""
 "is equivalent to a *fill* character of ``'0'`` with an *alignment* type of "
 "``'='``."
 msgstr ""
+"Açık bir hizalama verilmediğinde, *width* alanından önce sıfır (``'0'``) "
+"karakteri, sayısal türler için işaret farkında sıfır dolgusu sağlar. Bu, "
+"``'='`` *alignment* türü ile ``'0'`` *fill* karakterine eşdeğerdir."
 
 #: library/string.rst:439
 msgid ""
 "Preceding the *width* field by ``'0'`` no longer affects the default "
 "alignment for strings."
 msgstr ""
+"*width* alanından önce ``'0'`` kullanmak artık dizeler için varsayılan "
+"hizalamayı etkilemez."
 
 #: library/string.rst:443
 msgid ""
@@ -583,86 +819,96 @@ msgid ""
 "the field content.  The *precision* is not allowed for integer presentation "
 "types."
 msgstr ""
+"*precision*, sunum türleri ``'f'`` ve ``'F'`` için ondalık noktadan sonra "
+"kaç rakam gösterileceğini veya sunum türleri ``'g'`` veya ``'G'`` için "
+"ondalık noktadan önce ve sonra kaç rakam gösterileceğini belirten ondalık "
+"bir tamsayıdır. Dize sunum türleri için alan maksimum alan boyutunu "
+"belirtir - başka bir deyişle, alan içeriğinden kaç karakter kullanılacağını. "
+"*precision* tamsayı sunum türleri için izin verilmez."
 
 #: library/string.rst:451
 msgid "Finally, the *type* determines how the data should be presented."
-msgstr ""
+msgstr "Son olarak, *type* verinin nasıl sunulacağını belirler."
 
 #: library/string.rst:453
 msgid "The available string presentation types are:"
-msgstr ""
+msgstr "Mevcut dize sunum türleri şunlardır:"
 
 #: library/string.rst:467 library/string.rst:502
 msgid "Type"
-msgstr ""
+msgstr "Tür"
 
 #: library/string.rst:458
 msgid "``'s'``"
-msgstr ""
+msgstr "``'s'``"
 
 #: library/string.rst:458
 msgid "String format. This is the default type for strings and may be omitted."
-msgstr ""
+msgstr "Dize formatı. Bu, dizeler için varsayılan tür ve atlanabilir."
 
 #: library/string.rst:490 library/string.rst:575
 msgid "None"
-msgstr ""
+msgstr "Yok"
 
 #: library/string.rst:461
 msgid "The same as ``'s'``."
-msgstr ""
+msgstr "``'s'`` ile aynı."
 
 #: library/string.rst:464
 msgid "The available integer presentation types are:"
-msgstr ""
+msgstr "Mevcut tamsayı sunum türleri şunlardır:"
 
 #: library/string.rst:469
 msgid "``'b'``"
-msgstr ""
+msgstr "``'b'``"
 
 #: library/string.rst:469
 msgid "Binary format. Outputs the number in base 2."
-msgstr ""
+msgstr "İkili format. Sayıyı 2 tabanında çıktılar."
 
 #: library/string.rst:471
 msgid "``'c'``"
-msgstr ""
+msgstr "``'c'``"
 
 #: library/string.rst:471
 msgid ""
 "Character. Converts the integer to the corresponding unicode character "
 "before printing."
 msgstr ""
+"Karakter. Tamsayıyı yazdırmadan önce karşılık gelen Unicode karakterine "
+"dönüştürür."
 
 #: library/string.rst:474
 msgid "``'d'``"
-msgstr ""
+msgstr "``'d'``"
 
 #: library/string.rst:474
 msgid "Decimal Integer. Outputs the number in base 10."
-msgstr ""
+msgstr "Ondalık Tamsayı. Sayıyı 10 tabanında çıktılar."
 
 #: library/string.rst:476
 msgid "``'o'``"
-msgstr ""
+msgstr "``'o'``"
 
 #: library/string.rst:476
 msgid "Octal format. Outputs the number in base 8."
-msgstr ""
+msgstr "Sekizli format. Sayıyı 8 tabanında çıktılar."
 
 #: library/string.rst:478
 msgid "``'x'``"
-msgstr ""
+msgstr "``'x'``"
 
 #: library/string.rst:478
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
 "digits above 9."
 msgstr ""
+"Onaltılı format. Sayıyı 16 tabanında çıktılar, 9'dan büyük rakamlar için "
+"küçük harfler kullanır."
 
 #: library/string.rst:481
 msgid "``'X'``"
-msgstr ""
+msgstr "``'X'``"
 
 #: library/string.rst:481
 msgid ""
@@ -670,20 +916,25 @@ msgid ""
 "digits above 9. In case ``'#'`` is specified, the prefix ``'0x'`` will be "
 "upper-cased to ``'0X'`` as well."
 msgstr ""
+"Onaltılı format. Sayıyı 16 tabanında çıktılar, 9'dan büyük rakamlar için "
+"büyük harfler kullanır. ``'#'`` belirtilirse, ``'0x'`` öneki de ``'0X'`` "
+"olarak büyütülür."
 
 #: library/string.rst:568
 msgid "``'n'``"
-msgstr ""
+msgstr "``'n'``"
 
 #: library/string.rst:486
 msgid ""
 "Number. This is the same as ``'d'``, except that it uses the current locale "
 "setting to insert the appropriate number separator characters."
 msgstr ""
+"Sayı. Bu, ``'d'`` ile aynıdır, ancak mevcut yerel ayarını kullanarak uygun "
+"sayı ayırıcı karakterleri ekler."
 
 #: library/string.rst:490
 msgid "The same as ``'d'``."
-msgstr ""
+msgstr "``'d'`` ile aynı."
 
 #: library/string.rst:493
 msgid ""
@@ -692,16 +943,22 @@ msgid ""
 "``None``). When doing so, :func:`float` is used to convert the integer to a "
 "floating-point number before formatting."
 msgstr ""
+"Yukarıdaki sunum türlerine ek olarak, tamsayılar aşağıda listelenen kayan "
+"nokta sunum türleriyle biçimlendirilebilir (``'n'`` ve ``None`` hariç). "
+"Bu durumda, :func:`float` fonksiyonu tamsayıyı biçimlendirmeden önce kayan "
+"nokta sayısına dönüştürmek için kullanılır."
 
 #: library/string.rst:498
 msgid ""
 "The available presentation types for :class:`float` and :class:`~decimal."
 "Decimal` values are:"
 msgstr ""
+":class:`float` ve :class:`~decimal.Decimal` değerleri için mevcut sunum "
+"türleri şunlardır:"
 
 #: library/string.rst:504
 msgid "``'e'``"
-msgstr ""
+msgstr "``'e'``"
 
 #: library/string.rst:504
 msgid ""
@@ -714,20 +971,29 @@ msgid ""
 "Decimal`.  If ``p=0``, the decimal point is omitted unless the ``#`` option "
 "is used."
 msgstr ""
+"Bilimsel gösterim. Verilen ``p`` hassasiyeti için, sayıyı bilimsel gösterimde "
+"biçimlendirir ve katsayıyı üstten ayıran 'e' harfini kullanır. Katsayı "
+"ondalık noktadan önce bir rakam ve sonra ``p`` rakam içerir, toplam ``p + 1`` "
+"anlamlı rakam. Hassasiyet verilmediğinde, :class:`float` için ondalık noktadan "
+"sonra ``6`` rakam hassasiyeti kullanır ve :class:`~decimal.Decimal` için tüm "
+"katsayı rakamlarını gösterir. ``p=0`` ise, ``#`` seçeneği kullanılmadığı "
+"sürece ondalık nokta atlanır."
 
 #: library/string.rst:515
 msgid "``'E'``"
-msgstr ""
+msgstr "``'E'``"
 
 #: library/string.rst:515
 msgid ""
 "Scientific notation. Same as ``'e'`` except it uses an upper case 'E' as the "
 "separator character."
 msgstr ""
+"Bilimsel gösterim. ``'e'`` ile aynıdır, ancak ayırıcı karakter olarak büyük "
+"harf 'E' kullanır."
 
 #: library/string.rst:518
 msgid "``'f'``"
-msgstr ""
+msgstr "``'f'``"
 
 #: library/string.rst:518
 msgid ""
@@ -738,20 +1004,28 @@ msgid ""
 "coefficient digits for :class:`~decimal.Decimal`.  If ``p=0``, the decimal "
 "point is omitted unless the ``#`` option is used."
 msgstr ""
+"Sabit nokta gösterimi. Verilen ``p`` hassasiyeti için, sayıyı ondalık noktadan "
+"sonra tam olarak ``p`` rakam içeren ondalık sayı olarak biçimlendirir. "
+"Hassasiyet verilmediğinde, :class:`float` için ondalık noktadan sonra ``6`` "
+"rakam hassasiyeti kullanır ve :class:`~decimal.Decimal` için tüm katsayı "
+"rakamlarını gösterecek kadar büyük hassasiyet kullanır. ``p=0`` ise, ``#`` "
+"seçeneği kullanılmadığı sürece ondalık nokta atlanır."
 
 #: library/string.rst:527
 msgid "``'F'``"
-msgstr ""
+msgstr "``'F'``"
 
 #: library/string.rst:527
 msgid ""
 "Fixed-point notation. Same as ``'f'``, but converts ``nan`` to  ``NAN`` and "
 "``inf`` to ``INF``."
 msgstr ""
+"Sabit nokta gösterimi. ``'f'`` ile aynıdır, ancak ``nan``'ı ``NAN``'a ve "
+"``inf``'ı ``INF``'a dönüştürür."
 
 #: library/string.rst:530
 msgid "``'g'``"
-msgstr ""
+msgstr "``'g'``"
 
 #: library/string.rst:530
 msgid ""
@@ -760,6 +1034,10 @@ msgid ""
 "format or in scientific notation, depending on its magnitude. A precision of "
 "``0`` is treated as equivalent to a precision of ``1``."
 msgstr ""
+"Genel format. Verilen ``p >= 1`` hassasiyeti için, sayıyı ``p`` anlamlı "
+"rakama yuvarlar ve sonra sonucu büyüklüğüne bağlı olarak sabit nokta "
+"formatında veya bilimsel gösterimde biçimlendirir. ``0`` hassasiyeti ``1`` "
+"hassasiyeti ile eşdeğer kabul edilir."
 
 #: library/string.rst:537
 msgid ""
@@ -771,596 +1049,13 @@ msgid ""
 "is formatted with presentation type ``'e'`` and precision ``p-1``. In both "
 "cases insignificant trailing zeros are removed from the significand, and the "
 "decimal point is also removed if there are no remaining digits following it, "
-"unless the ``'#'`` option is used."
-msgstr ""
-
-#: library/string.rst:550
-msgid ""
-"With no precision given, uses a precision of ``6`` significant digits for :"
-"class:`float`. For :class:`~decimal.Decimal`, the coefficient of the result "
-"is formed from the coefficient digits of the value; scientific notation is "
-"used for values smaller than ``1e-6`` in absolute value and values where the "
-"place value of the least significant digit is larger than 1, and fixed-point "
-"notation is used otherwise."
-msgstr ""
-
-#: library/string.rst:559
-msgid ""
-"Positive and negative infinity, positive and negative zero, and nans, are "
-"formatted as ``inf``, ``-inf``, ``0``, ``-0`` and ``nan`` respectively, "
-"regardless of the precision."
-msgstr ""
-
-#: library/string.rst:564
-msgid "``'G'``"
-msgstr ""
-
-#: library/string.rst:564
-msgid ""
-"General format. Same as ``'g'`` except switches to ``'E'`` if the number "
-"gets too large. The representations of infinity and NaN are uppercased, too."
-msgstr ""
-
-#: library/string.rst:568
-msgid ""
-"Number. This is the same as ``'g'``, except that it uses the current locale "
-"setting to insert the appropriate number separator characters."
-msgstr ""
-
-#: library/string.rst:572
-msgid "``'%'``"
-msgstr ""
-
-#: library/string.rst:572
-msgid ""
-"Percentage. Multiplies the number by 100 and displays in fixed (``'f'``) "
-"format, followed by a percent sign."
-msgstr ""
-
-#: library/string.rst:575
-msgid ""
-"For :class:`float` this is like the ``'g'`` type, except that when fixed-"
-"point notation is used to format the result, it always includes at least one "
-"digit past the decimal point, and switches to the scientific notation when "
-"``exp >= p - 1``.  When the precision is not specified, the latter will be "
-"as large as needed to represent the given value faithfully."
-msgstr ""
-
-#: library/string.rst:583
-msgid ""
-"For :class:`~decimal.Decimal`, this is the same as either ``'g'`` or ``'G'`` "
-"depending on the value of ``context.capitals`` for the current decimal "
-"context."
-msgstr ""
-
-#: library/string.rst:587
-msgid ""
-"The overall effect is to match the output of :func:`str` as altered by the "
-"other format modifiers."
-msgstr ""
-
-#: library/string.rst:595
-msgid "Format examples"
-msgstr ""
-
-#: library/string.rst:597
-msgid ""
-"This section contains examples of the :meth:`str.format` syntax and "
-"comparison with the old ``%``-formatting."
-msgstr ""
-
-#: library/string.rst:600
-msgid ""
-"In most of the cases the syntax is similar to the old ``%``-formatting, with "
-"the addition of the ``{}`` and with ``:`` used instead of ``%``. For "
-"example, ``'%03.2f'`` can be translated to ``'{:03.2f}'``."
-msgstr ""
-
-#: library/string.rst:604
-msgid ""
-"The new format syntax also supports new and different options, shown in the "
-"following examples."
-msgstr ""
-
-#: library/string.rst:607
-msgid "Accessing arguments by position::"
-msgstr ""
-
-#: library/string.rst:609
-msgid ""
-">>> '{0}, {1}, {2}'.format('a', 'b', 'c')\n"
-"'a, b, c'\n"
-">>> '{}, {}, {}'.format('a', 'b', 'c')  # 3.1+ only\n"
-"'a, b, c'\n"
-">>> '{2}, {1}, {0}'.format('a', 'b', 'c')\n"
-"'c, b, a'\n"
-">>> '{2}, {1}, {0}'.format(*'abc')      # unpacking argument sequence\n"
-"'c, b, a'\n"
-">>> '{0}{1}{0}'.format('abra', 'cad')   # arguments' indices can be "
-"repeated\n"
-"'abracadabra'"
-msgstr ""
-
-#: library/string.rst:620
-msgid "Accessing arguments by name::"
-msgstr ""
-
-#: library/string.rst:622
-msgid ""
-">>> 'Coordinates: {latitude}, {longitude}'.format(latitude='37.24N', "
-"longitude='-115.81W')\n"
-"'Coordinates: 37.24N, -115.81W'\n"
-">>> coord = {'latitude': '37.24N', 'longitude': '-115.81W'}\n"
-">>> 'Coordinates: {latitude}, {longitude}'.format(**coord)\n"
-"'Coordinates: 37.24N, -115.81W'"
-msgstr ""
-
-#: library/string.rst:628
-msgid "Accessing arguments' attributes::"
-msgstr ""
-
-#: library/string.rst:630
-msgid ""
-">>> c = 3-5j\n"
-">>> ('The complex number {0} is formed from the real part {0.real} '\n"
-"...  'and the imaginary part {0.imag}.').format(c)\n"
-"'The complex number (3-5j) is formed from the real part 3.0 and the "
-"imaginary part -5.0.'\n"
-">>> class Point:\n"
-"...     def __init__(self, x, y):\n"
-"...         self.x, self.y = x, y\n"
-"...     def __str__(self):\n"
-"...         return 'Point({self.x}, {self.y})'.format(self=self)\n"
-"...\n"
-">>> str(Point(4, 2))\n"
-"'Point(4, 2)'"
-msgstr ""
-
-#: library/string.rst:643
-msgid "Accessing arguments' items::"
-msgstr ""
-
-#: library/string.rst:645
-msgid ""
-">>> coord = (3, 5)\n"
-">>> 'X: {0[0]};  Y: {0[1]}'.format(coord)\n"
-"'X: 3;  Y: 5'"
-msgstr ""
-
-#: library/string.rst:649
-msgid "Replacing ``%s`` and ``%r``::"
-msgstr ""
-
-#: library/string.rst:651
-msgid ""
-">>> \"repr() shows quotes: {!r}; str() doesn't: {!s}\".format('test1', "
-"'test2')\n"
-"\"repr() shows quotes: 'test1'; str() doesn't: test2\""
-msgstr ""
-
-#: library/string.rst:654
-msgid "Aligning the text and specifying a width::"
-msgstr ""
-
-#: library/string.rst:656
-msgid ""
-">>> '{:<30}'.format('left aligned')\n"
-"'left aligned                  '\n"
-">>> '{:>30}'.format('right aligned')\n"
-"'                 right aligned'\n"
-">>> '{:^30}'.format('centered')\n"
-"'           centered           '\n"
-">>> '{:*^30}'.format('centered')  # use '*' as a fill char\n"
-"'***********centered***********'"
-msgstr ""
-
-#: library/string.rst:665
-msgid "Replacing ``%+f``, ``%-f``, and ``% f`` and specifying a sign::"
-msgstr ""
-
-#: library/string.rst:667
-msgid ""
-">>> '{:+f}; {:+f}'.format(3.14, -3.14)  # show it always\n"
-"'+3.140000; -3.140000'\n"
-">>> '{: f}; {: f}'.format(3.14, -3.14)  # show a space for positive numbers\n"
-"' 3.140000; -3.140000'\n"
-">>> '{:-f}; {:-f}'.format(3.14, -3.14)  # show only the minus -- same as '{:"
-"f}; {:f}'\n"
-"'3.140000; -3.140000'"
-msgstr ""
-
-#: library/string.rst:674
-msgid ""
-"Replacing ``%x`` and ``%o`` and converting the value to different bases::"
-msgstr ""
-
-#: library/string.rst:676
-msgid ""
-">>> # format also supports binary numbers\n"
-">>> \"int: {0:d};  hex: {0:x};  oct: {0:o};  bin: {0:b}\".format(42)\n"
-"'int: 42;  hex: 2a;  oct: 52;  bin: 101010'\n"
-">>> # with 0x, 0o, or 0b as prefix:\n"
-">>> \"int: {0:d};  hex: {0:#x};  oct: {0:#o};  bin: {0:#b}\".format(42)\n"
-"'int: 42;  hex: 0x2a;  oct: 0o52;  bin: 0b101010'"
-msgstr ""
-
-#: library/string.rst:683
-msgid "Using the comma as a thousands separator::"
-msgstr ""
-
-#: library/string.rst:685
-msgid ""
-">>> '{:,}'.format(1234567890)\n"
-"'1,234,567,890'"
-msgstr ""
-
-#: library/string.rst:688
-msgid "Expressing a percentage::"
-msgstr ""
-
-#: library/string.rst:690
-msgid ""
-">>> points = 19\n"
-">>> total = 22\n"
-">>> 'Correct answers: {:.2%}'.format(points/total)\n"
-"'Correct answers: 86.36%'"
-msgstr ""
-
-#: library/string.rst:695
-msgid "Using type-specific formatting::"
-msgstr ""
-
-#: library/string.rst:697
-msgid ""
-">>> import datetime\n"
-">>> d = datetime.datetime(2010, 7, 4, 12, 15, 58)\n"
-">>> '{:%Y-%m-%d %H:%M:%S}'.format(d)\n"
-"'2010-07-04 12:15:58'"
-msgstr ""
-
-#: library/string.rst:702
-msgid "Nesting arguments and more complex examples::"
-msgstr ""
-
-#: library/string.rst:704
-msgid ""
-">>> for align, text in zip('<^>', ['left', 'center', 'right']):\n"
-"...     '{0:{fill}{align}16}'.format(text, fill=align, align=align)\n"
-"...\n"
-"'left<<<<<<<<<<<<'\n"
-"'^^^^^center^^^^^'\n"
-"'>>>>>>>>>>>right'\n"
-">>>\n"
-">>> octets = [192, 168, 0, 1]\n"
-">>> '{:02X}{:02X}{:02X}{:02X}'.format(*octets)\n"
-"'C0A80001'\n"
-">>> int(_, 16)\n"
-"3232235521\n"
-">>>\n"
-">>> width = 5\n"
-">>> for num in range(5,12): \n"
-"...     for base in 'dXob':\n"
-"...         print('{0:{width}{base}}'.format(num, base=base, width=width), "
-"end=' ')\n"
-"...     print()\n"
-"...\n"
-"    5     5     5   101\n"
-"    6     6     6   110\n"
-"    7     7     7   111\n"
-"    8     8    10  1000\n"
-"    9     9    11  1001\n"
-"   10     A    12  1010\n"
-"   11     B    13  1011"
-msgstr ""
-
-#: library/string.rst:736
-msgid "Template strings"
-msgstr ""
-
-#: library/string.rst:738
-msgid ""
-"Template strings provide simpler string substitutions as described in :pep:"
-"`292`.  A primary use case for template strings is for internationalization "
-"(i18n) since in that context, the simpler syntax and functionality makes it "
-"easier to translate than other built-in string formatting facilities in "
-"Python.  As an example of a library built on template strings for i18n, see "
-"the `flufl.i18n <https://flufli18n.readthedocs.io/en/latest/>`_ package."
-msgstr ""
-
-#: library/string.rst:748
-msgid ""
-"Template strings support ``$``-based substitutions, using the following "
-"rules:"
-msgstr ""
-
-#: library/string.rst:750
-msgid "``$$`` is an escape; it is replaced with a single ``$``."
-msgstr ""
-
-#: library/string.rst:752
-msgid ""
-"``$identifier`` names a substitution placeholder matching a mapping key of "
-"``\"identifier\"``.  By default, ``\"identifier\"`` is restricted to any "
-"case-insensitive ASCII alphanumeric string (including underscores) that "
-"starts with an underscore or ASCII letter.  The first non-identifier "
-"character after the ``$`` character terminates this placeholder "
-"specification."
-msgstr ""
-
-#: library/string.rst:759
-msgid ""
-"``${identifier}`` is equivalent to ``$identifier``.  It is required when "
-"valid identifier characters follow the placeholder but are not part of the "
-"placeholder, such as ``\"${noun}ification\"``."
-msgstr ""
-
-#: library/string.rst:763
-msgid ""
-"Any other appearance of ``$`` in the string will result in a :exc:"
-"`ValueError` being raised."
-msgstr ""
-
-#: library/string.rst:766
-msgid ""
-"The :mod:`string` module provides a :class:`Template` class that implements "
-"these rules.  The methods of :class:`Template` are:"
-msgstr ""
-
-#: library/string.rst:772
-msgid "The constructor takes a single argument which is the template string."
-msgstr ""
-
-#: library/string.rst:777
-msgid ""
-"Performs the template substitution, returning a new string.  *mapping* is "
-"any dictionary-like object with keys that match the placeholders in the "
-"template.  Alternatively, you can provide keyword arguments, where the "
-"keywords are the placeholders.  When both *mapping* and *kwds* are given and "
-"there are duplicates, the placeholders from *kwds* take precedence."
-msgstr ""
-
-#: library/string.rst:786
-msgid ""
-"Like :meth:`substitute`, except that if placeholders are missing from "
-"*mapping* and *kwds*, instead of raising a :exc:`KeyError` exception, the "
-"original placeholder will appear in the resulting string intact.  Also, "
-"unlike with :meth:`substitute`, any other appearances of the ``$`` will "
-"simply return ``$`` instead of raising :exc:`ValueError`."
-msgstr ""
-
-#: library/string.rst:792
-msgid ""
-"While other exceptions may still occur, this method is called \"safe\" "
-"because it always tries to return a usable string instead of raising an "
-"exception.  In another sense, :meth:`safe_substitute` may be anything other "
-"than safe, since it will silently ignore malformed templates containing "
-"dangling delimiters, unmatched braces, or placeholders that are not valid "
-"Python identifiers."
-msgstr ""
-
-#: library/string.rst:802
-msgid ""
-"Returns false if the template has invalid placeholders that will cause :meth:"
-"`substitute` to raise :exc:`ValueError`."
-msgstr ""
-
-#: library/string.rst:810
-msgid ""
-"Returns a list of the valid identifiers in the template, in the order they "
-"first appear, ignoring any invalid identifiers."
-msgstr ""
-
-#: library/string.rst:815
-msgid ":class:`Template` instances also provide one public data attribute:"
-msgstr ""
-
-#: library/string.rst:819
-msgid ""
-"This is the object passed to the constructor's *template* argument.  In "
-"general, you shouldn't change it, but read-only access is not enforced."
-msgstr ""
-
-#: library/string.rst:822
-msgid "Here is an example of how to use a Template::"
-msgstr ""
-
-#: library/string.rst:824
-msgid ""
-">>> from string import Template\n"
-">>> s = Template('$who likes $what')\n"
-">>> s.substitute(who='tim', what='kung pao')\n"
-"'tim likes kung pao'\n"
-">>> d = dict(who='tim')\n"
-">>> Template('Give $who $100').substitute(d)\n"
-"Traceback (most recent call last):\n"
-"...\n"
-"ValueError: Invalid placeholder in string: line 1, col 11\n"
-">>> Template('$who likes $what').substitute(d)\n"
-"Traceback (most recent call last):\n"
-"...\n"
-"KeyError: 'what'\n"
-">>> Template('$who likes $what').safe_substitute(d)\n"
-"'tim likes $what'"
-msgstr ""
-
-#: library/string.rst:840
-msgid ""
-"Advanced usage: you can derive subclasses of :class:`Template` to customize "
-"the placeholder syntax, delimiter character, or the entire regular "
-"expression used to parse template strings.  To do this, you can override "
-"these class attributes:"
-msgstr ""
-
-#: library/string.rst:845
-msgid ""
-"*delimiter* -- This is the literal string describing a placeholder "
-"introducing delimiter.  The default value is ``$``.  Note that this should "
-"*not* be a regular expression, as the implementation will call :meth:`re."
-"escape` on this string as needed.  Note further that you cannot change the "
-"delimiter after class creation (i.e. a different delimiter must be set in "
-"the subclass's class namespace)."
-msgstr ""
-
-#: library/string.rst:852
-msgid ""
-"*idpattern* -- This is the regular expression describing the pattern for non-"
-"braced placeholders.  The default value is the regular expression ``(?a:[_a-"
-"z][_a-z0-9]*)``.  If this is given and *braceidpattern* is ``None`` this "
-"pattern will also apply to braced placeholders."
-msgstr ""
-
-#: library/string.rst:859
-msgid ""
-"Since default *flags* is ``re.IGNORECASE``, pattern ``[a-z]`` can match with "
-"some non-ASCII characters. That's why we use the local ``a`` flag here."
-msgstr ""
-
-#: library/string.rst:863
-msgid ""
-"*braceidpattern* can be used to define separate patterns used inside and "
-"outside the braces."
-msgstr ""
-
-#: library/string.rst:867
-msgid ""
-"*braceidpattern* -- This is like *idpattern* but describes the pattern for "
-"braced placeholders.  Defaults to ``None`` which means to fall back to "
-"*idpattern* (i.e. the same pattern is used both inside and outside braces). "
-"If given, this allows you to define different patterns for braced and "
-"unbraced placeholders."
-msgstr ""
-
-#: library/string.rst:875
-msgid ""
-"*flags* -- The regular expression flags that will be applied when compiling "
-"the regular expression used for recognizing substitutions.  The default "
-"value is ``re.IGNORECASE``.  Note that ``re.VERBOSE`` will always be added "
-"to the flags, so custom *idpattern*\\ s must follow conventions for verbose "
-"regular expressions."
-msgstr ""
-
-#: library/string.rst:883
-msgid ""
-"Alternatively, you can provide the entire regular expression pattern by "
-"overriding the class attribute *pattern*.  If you do this, the value must be "
-"a regular expression object with four named capturing groups.  The capturing "
-"groups correspond to the rules given above, along with the invalid "
-"placeholder rule:"
-msgstr ""
-
-#: library/string.rst:889
-msgid ""
-"*escaped* -- This group matches the escape sequence, e.g. ``$$``, in the "
-"default pattern."
-msgstr ""
-
-#: library/string.rst:892
-msgid ""
-"*named* -- This group matches the unbraced placeholder name; it should not "
-"include the delimiter in capturing group."
-msgstr ""
-
-#: library/string.rst:895
-msgid ""
-"*braced* -- This group matches the brace enclosed placeholder name; it "
-"should not include either the delimiter or braces in the capturing group."
-msgstr ""
-
-#: library/string.rst:898
-msgid ""
-"*invalid* -- This group matches any other delimiter pattern (usually a "
-"single delimiter), and it should appear last in the regular expression."
-msgstr ""
-
-#: library/string.rst:901
-msgid ""
-"The methods on this class will raise :exc:`ValueError` if the pattern "
-"matches the template without one of these named groups matching."
-msgstr ""
-
-#: library/string.rst:906
-msgid "Helper functions"
-msgstr ""
-
-#: library/string.rst:910
-msgid ""
-"Split the argument into words using :meth:`str.split`, capitalize each word "
-"using :meth:`str.capitalize`, and join the capitalized words using :meth:"
-"`str.join`.  If the optional second argument *sep* is absent or ``None``, "
-"runs of whitespace characters are replaced by a single space and leading and "
-"trailing whitespace are removed, otherwise *sep* is used to split and join "
-"the words."
-msgstr ""
-
-#: library/string.rst:195
-msgid "{} (curly brackets)"
-msgstr ""
-
-#: library/string.rst:335 library/string.rst:386 library/string.rst:409
-#: library/string.rst:418
-msgid "in string formatting"
-msgstr ""
-
-#: library/string.rst:195
-msgid ". (dot)"
-msgstr ""
-
-#: library/string.rst:195
-msgid "[] (square brackets)"
-msgstr ""
-
-#: library/string.rst:195
-msgid "! (exclamation)"
-msgstr ""
-
-#: library/string.rst:195
-msgid ": (colon)"
-msgstr ""
-
-#: library/string.rst:335
-msgid "< (less)"
-msgstr ""
-
-#: library/string.rst:335
-msgid "> (greater)"
-msgstr ""
-
-#: library/string.rst:335
-msgid "= (equals)"
-msgstr ""
-
-#: library/string.rst:335
-msgid "^ (caret)"
-msgstr ""
-
-#: library/string.rst:367
-msgid "+ (plus)"
-msgstr ""
-
-#: library/string.rst:367
-msgid "- (minus)"
-msgstr ""
-
-#: library/string.rst:386
-msgid "z"
-msgstr ""
-
-#: library/string.rst:395
-msgid "# (hash)"
-msgstr ""
-
-#: library/string.rst:409
-msgid ", (comma)"
-msgstr ""
-
-#: library/string.rst:418
-msgid "_ (underscore)"
-msgstr ""
-
-#: library/string.rst:746
-msgid "$ (dollar)"
-msgstr ""
-
-#: library/string.rst:746
-msgid "in template strings"
-msgstr ""
+"unless the ``#`` option is used."
+msgstr ""
+"Kesin kurallar şu şekildedir: ``'e'`` sunum türü ve ``p-1`` hassasiyeti ile "
+"biçimlendirilen sonucun ``exp`` üsüne sahip olacağını varsayın. O zaman, "
+"``m <= exp < p`` ise, burada ``m`` kayan nokta sayıları için -4 ve "
+":class:`Decimals <decimal.Decimal>` için -6'dır, sayı ``'f'`` sunum türü "
+"ve ``p-1-exp`` hassasiyeti ile biçimlendirilir. Aksi takdirde, sayı ``'e'`` "
+"sunum türü ve ``p-1`` hassasiyeti ile biçimlendirilir. Her iki durumda da "
+"anlamsız sondaki sıfırlar anlamlı kısımdan kaldırılır ve ondalık nokta da "
+"takip eden rakam kalmadığında kaldırılır, ``#`` seçeneği kullanılmadığı sürece."
